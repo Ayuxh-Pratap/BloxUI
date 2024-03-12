@@ -5,17 +5,5 @@
 	"about": {
 		"title": "About",
 		"type": "page"
-	  },
-	  "contact": {
-		"title": "Contact ↗",
-		"type": "page",
-		"href": "https://www.instagram.com/ayuxh_pratap_/",
-		"newWindow": true
-	  },
-	  "Social": {
-		"title": "Instagram ↗",
-		"type": "page",
-		"href": "https://www.instagram.com/ayuxh_pratap_/",
-		"newWindow": true
-	  }
+	}
 }
