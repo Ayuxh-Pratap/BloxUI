@@ -5,12 +5,12 @@ import { useConfig } from "nextra-theme-docs";
 const config: DocsThemeConfig = {
 	logo: <span style={{fontSize: "1.6rem" , fontWeight: "bold"}}>Blox UI</span>,
 	project: {
-		link: "https://github.com/Chensokheng",
+		link: "https://github.com/Ayuxh-Pratap",
 	},
 	chat: {
-		link: "https://discord.gg/XbJkCtt",
+		link: "https://discord.com/channels/1211252690764701756/12112526913642250",
 	},
-	docsRepositoryBase: "https://github.com/Chensokheng",
+	docsRepositoryBase: "https://github.com/Ayuxh-Pratap",
 	footer: {
 		text: (
 			<>
