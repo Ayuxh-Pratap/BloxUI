@@ -1,6 +1,3 @@
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-
 import React from 'react'
 import Image from "next/image";
 
@@ -19,8 +16,8 @@ export default function InfoCard() {
             <p className='primary mb-4 text-center text-white/65'>CTO at IndiBus</p>
             <p className='text-white/75 mb-6 text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus facere quasi expedita quam sunt a dolore cupiditate eveniet laudantium modi.</p>
             <div className='flex gap-4 w-min center mx-auto'>
-                <a href="/" className='text-2xl duration-300 transition-all hover:text-black text-slate-600'><FaTwitter /></a>
-                <a href="/" className=' text-2xl duration-300 transition-all hover:text-black text-slate-600'><FaLinkedin /></a>
+                <a href="/" className='text-2xl duration-300 transition-all hover:text-black text-slate-600'>👤</a>
+                <a href="/" className=' text-2xl duration-300 transition-all hover:text-black text-slate-600'>⚙️</a>
             </div>
         </div>
     )
