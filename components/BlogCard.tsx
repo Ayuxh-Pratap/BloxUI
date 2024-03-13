@@ -31,12 +31,12 @@ export default function BlogCard() {
 										/>
 									</div>
 								</div>
-								<h1>{"Jonas Kakaroto"}</h1>
+								<h1>{"Ganesh Pr Singh"}</h1>
 							</div>
 						</div>
 						<h1 className="text-xl font-semibold text-white mt-5">
 							{
-								"33 Powerful Self-Reflection Questions for Personal Growth"
+								"33 Powerful Tech-Projects for Industrial Growth!"
 							}
 						</h1>
 					</div>
