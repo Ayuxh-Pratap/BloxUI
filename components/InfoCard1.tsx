@@ -13,7 +13,7 @@ export default function InfoCard() {
                 />
             </div>
             <h2 className='text-2xl font-semibold text-black text-center'>Ganesh Pr Singh</h2>
-            <p className='primary mb-4 text-center text-black/65'>CTO at IndiBus</p>
+            <p className='primary mb-4 text-center text-gray-800'>CTO at IndiBus</p>
             <p className='text-black/75 mb-6 text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus facere quasi expedita quam sunt a dolore cupiditate eveniet laudantium modi.</p>
             <div className='flex gap-4 w-min center mx-auto'>
                 <a href="/" className='text-2xl duration-300 transition-all hover:text-black text-slate-600'><svg className="w-6 h-6 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
