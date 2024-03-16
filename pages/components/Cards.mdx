@@ -8,6 +8,9 @@ import BlogCard from "../../components/BlogCard";
 import InfoCard1 from "../../components/InfoCard1";
 import InfoCard2 from "../../components/InfoCard2";
 import InfoCard3 from "../../components/InfoCard3";
+import PricingCard from "../../components/PricingCard";
+import PricingCard2 from "../../components/PricingCard2";
+import PricingCard3 from "../../components/PricingCard3";
 
 ## Blog Card
 
@@ -302,4 +305,140 @@ export default function InfoCard() {
     </Tab>
 </Tabs>
 
+## Pricing Card
+
+<Tabs items={['Preview',"Code"]}>
+<Tab><PricingCard /></Tab>
+<Tab>
+```js filename="PricingCard.jsx" copy
+import React from 'react'
+
+const PricingCard = () => {
+  return (
+    <div className="w-90 sm:w-96 rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
+          <div>
+            <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
+              Free Trial
+            </h3>
+            <p className="pt-[12px] text-[#36485C] lg:text-[18px]">
+              Perfect for testing the waters
+            </p>
+
+            <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">
+              Rs.0<span className="text-[#5F7896]">/mo</span>
+            </h2>
+
+            <ul className="flex flex-col gap-y-2 pt-4 text-[#5F7896]">
+              <li className="flex items-center gap-x-2">
+                Unlimited Components
+              </li>
+              <li className="flex items-center gap-x-2">
+                Free React/Next SourceCode
+              </li>
+              <li className="flex items-center gap-x-2">
+                Access to Variants 
+              </li>
+            </ul>
+          </div>
+          <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
+            Browse Components
+          </button>
+        </div>
+  )
+}
+
+export default PricingCard
+```
+</Tab>
+</Tabs>
+
+### Variants
+
+<Tabs items={['Variant 1',"Variant 2"]}>
+<Tab>
+<PricingCard3 />
+
+ ```js filename="InfoCard.jsx" copy
+ import React from 'react'
+
+const PricingCard3 = () => {
+  return (
+    <div className="w-90 sm:w-96 rounded-[8px] bg-[#4328EB] p-6 flex flex-col">
+          <div>
+            <h3 className="font-medium text-white text-[18px] lg:text-xl">
+              Business
+            </h3>
+            <p className="pt-[12px] text-[#F4F8FA] lg:text-[18px]">
+              Perfect for small businesses
+            </p>
+
+            <h2 className="pt-4 text-2xl font-medium text-white lg:text-[32px]">
+              Rs.500<span className="text-[#F4F8FA]">/mo</span>
+            </h2>
+
+            <ul className="flex flex-col gap-y-2 pt-4 text-[#F4F8FA]">
+              <li className="flex items-center gap-x-2">
+                Custom Components
+              </li>
+              <li className="flex items-center gap-x-2">
+                  Modern Web Solutions
+              </li>
+              <li className="flex items-center gap-x-2">
+                Performance Optimization
+              </li>
+              <li className="flex items-center gap-x-2">
+                SEO + Scaling
+              </li>
+            </ul>
+          </div>
+          <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
+            Starting Soon!
+          </button>
+        </div>
+  )
+}
+
+export default PricingCard3
+ ```
+</Tab>
+<Tab>
+<PricingCard2 />
+
+ ```js filename="InfoCard.jsx" copy
+ import React from 'react'
+
+const PricingCard2 = () => {
+  return (
+    <div className="w-full rounded-[8px] bg-[#F5F4FF] p-6 flex flex-col lg:justify-between">
+          <div>
+            <h3 className="font-medium text-[#4328EB] text-[18px] lg:text-xl">
+              Enterprise
+            </h3>
+            <p className="pt-[12px] text-[#36485C] lg:text-[18px]">
+              Perfect for big companies
+            </p>
+
+            <h2 className="pt-4 text-2xl font-medium lg:text-[32px]">Custom</h2>
+
+            <p className="pt-4 text-[16px] text-[#36485C]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore.
+            </p>
+            <p className="pt-2 text-[16px] text-[#36485C]">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+            </p>
+          </div>
+          <button className="mt-[16px] rounded-[4px] bg-white py-[14px] text-[#4328EB] font-medium">
+            Contact Us
+          </button>
+        </div>
+  )
+}
+
+export default PricingCard2
+ ```
+</Tab>
+</Tabs>
 
