@@ -30,7 +30,7 @@ export default function Linktree() {
 					</div>
 				</div>
 				<div className="text-center p-3">
-					<h1 className="text-4xl font-bold">Chen Sokheng</h1>
+					<h1 className="text-4xl font-bold">Ganesh Pr Singh</h1>
 					<p className="text-lg mt-3">
 						Lorem Ipsum has been the industry's since the 500s.
 					</p>
