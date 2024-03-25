@@ -3,7 +3,7 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import { useConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-	logo: <span style={{fontSize: "1.6rem" , fontWeight: "bold"}}>Blox UI</span>,
+	logo: <a href="https://bloxui.vercel.app/" style={{fontSize: "1.6rem" , fontWeight: "bold"}}>Blox UI</a>,
 	project: {
 		link: "https://github.com/Ayuxh-Pratap",
 	},
