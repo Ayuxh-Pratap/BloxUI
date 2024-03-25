@@ -2,7 +2,7 @@
 
 [**Live Demo →**](https://uiblox.vercel.app)
 
-[![](.github/screenshot1.png)](https://bloxui.vercel.app)
+[![](.github/Screenshot1.png)](https://bloxui.vercel.app)
 
 ## Quickly Start OpenSource Contribution
 
